@@ -1,0 +1,37 @@
+#Voici le fichier contenant toutes les questions avec les réponses que M00N comprend.
+Vous pouvez ajouter une question avec sa réponse (ou action, comme donner la météo). 
+Merci pour votre aide.
+
+
+1:
+Q:
+bonjour
+R:
+Bonjour, comment puis-je vous aider ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#CODE (pour m'aider encore plus, j'ai pas a coder ^^) Visual Basic 2010 Express.
+
+
+ListBox1.Items.Add(My.Settings.NomUtilisateur & " : " & EarnTextBox1.Text)
+        If EarnTextBox1.Text = "bonjour" Then
+            ListBox1.Items.Add("M00N : Bonjour, comment puis-je vous aider ?")
+
+        End If
+        EarnTextBox1.Text = ""
+
+
